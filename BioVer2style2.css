@@ -1,0 +1,51 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+}
+.div1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    margin-bottom: 15px;
+    /* width: 100%; */
+    height: 35px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+   /* This changes the color of the hrefs to all be red*/
+a {color: crimson;
+}
+
+.container {
+    width: 1048px;
+    margin: 0 auto;
+}
+
+#mainbio,
+#Contact,
+#bioimage {float: left;
+}
+
+  /* This is one section */
+#mainbio {
+    width: 70%;
+}
+ 
+/* This is the other section */
+#contact {
+    width: 30%;
+}
+  
+#bioimage {
+    width: 250px;
+    height: 200px;
+    margin-right: 5px;
+}
